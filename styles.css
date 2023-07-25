@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  label,
+  input,
+  button {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px 20px;
+  }
+  
+  #search-results {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
